@@ -23,16 +23,4 @@ body {
   font-style: normal;
 }
 
-main {
-  height: 841px;
-  width: 1189px;
-  margin: 0 auto 30px auto;
-  padding: 50px;
-  background-color: var(--color__background);
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  gap: 50px;
-  position: relative;
-}
-
 /*# sourceMappingURL=styles.css.map */
