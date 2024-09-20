@@ -1,0 +1,12 @@
+.page {
+  height: 1189px;
+  width: 841px;
+  margin: 0 auto 30px auto;
+  padding: 50px;
+  background-color: var(--color__background);
+
+  &__landscape {
+    height: 841px;
+    width: 1189px;
+  }
+}
