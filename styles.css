@@ -1,0 +1,38 @@
+* {
+  --color__text: rgb(0, 0, 0);
+  --color__background: white;
+  --size__value: 60px;
+  --gap__small: 5px;
+  --gap__medium: 15px;
+  --gap__big: 30px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--color__text);
+  scroll-behavior: smooth;
+  background-color: grey;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+main {
+  height: 841px;
+  width: 1189px;
+  margin: 0 auto 30px auto;
+  padding: 50px;
+  background-color: var(--color__background);
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 50px;
+  position: relative;
+}
+
+/*# sourceMappingURL=styles.css.map */
